@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-05T15:55:20 IST" name="Suite" finished-at="2025-12-05T15:55:47 IST" duration-ms="27420">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner@2cd2a21f]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-12-05T15:55:20 IST" name="Test1" finished-at="2025-12-05T15:55:47 IST" duration-ms="27387">
+      <class name="testRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:testRunner@2cd2a21f]" started-at="2025-12-05T15:55:20 IST" name="setUpClass" finished-at="2025-12-05T15:55:20 IST" duration-ms="480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner@2cd2a21f]" started-at="2025-12-05T15:55:20 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-12-05T15:55:24 IST" duration-ms="3335" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User enters into the Store"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Open the Store]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner@2cd2a21f]" started-at="2025-12-05T15:55:24 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-12-05T15:55:42 IST" duration-ms="18002" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User enters into the Login page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Open the Store]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner@2cd2a21f]" started-at="2025-12-05T15:55:42 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-12-05T15:55:44 IST" duration-ms="2679" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The User enters into Fish product page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Fish page]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner@2cd2a21f]" started-at="2025-12-05T15:55:44 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-12-05T15:55:47 IST" duration-ms="2790" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The user enters into Fish product page through clicking image"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Fish page]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner@2cd2a21f]" started-at="2025-12-05T15:55:47 IST" name="tearDownClass" finished-at="2025-12-05T15:55:47 IST" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testRunner -->
+    </test> <!-- Test1 -->
+    <test started-at="2025-12-05T15:55:47 IST" name="Test2" finished-at="2025-12-05T15:55:47 IST" duration-ms="0">
+      <class name="utility.reportGenerator">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:utility.reportGenerator@1b6e1eff]" started-at="2025-12-05T15:55:20 IST" name="beforeSuite" finished-at="2025-12-05T15:55:20 IST" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:utility.reportGenerator@1b6e1eff]" started-at="2025-12-05T15:55:47 IST" name="afterSuite" finished-at="2025-12-05T15:55:48 IST" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- utility.reportGenerator -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
